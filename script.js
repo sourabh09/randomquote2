@@ -38,9 +38,9 @@ function copyToClipboard(element) {
 function showMessage(){
 
   $('#title_name').text("COPIED!!");
-  $('header').css("color","#FFF");
+
   //$('header').css("backgroundColor","#f0002f");
-  $('header').css("backgroundColor","#53a653");
+ 
   
 
   setTimeout(hideMessage, 1500)
@@ -48,9 +48,7 @@ function showMessage(){
 
 function hideMessage(){
 
-  $('#title_name').text("RANDOM QUOTE");
-  $('header').css("color","#f0002f");
-  $('header').css("backgroundColor","#F5F5F5");
+  $('#title_name').text("");
 
 
 }
@@ -70,6 +68,8 @@ $(function(){
      }
    });
 })
+
+
 
 
 
