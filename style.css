@@ -105,6 +105,7 @@ transform: translate(-78%, -88%);
   justify-content: center;
   align-items: center;
   animation: fab-animation-reverse 0.4s ease-out forwards;
+  outline: none;
 }
 .wrapper .fab::before, .wrapper .fab::after {
   content: "";
@@ -168,6 +169,7 @@ transform: translate(-78%, -88%);
   position: absolute;
   z-index: 5;
   opacity: 0;
+  outline: none !important;
 }
 .wrapper input:checked ~ .fab {
   animation: fab-animation 0.4s ease-out forwards;
@@ -227,4 +229,8 @@ transform: translate(-78%, -88%);
   100% {
     transform: scale(1, 1);
   }
+}
+
+#title_name{
+  color: #53a653;
 }
